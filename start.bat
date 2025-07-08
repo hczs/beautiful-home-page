@@ -1,0 +1,1 @@
+pm2 start cmd --name beautiful-home-page -- /c "set PORT=1215 && pnpm start"
