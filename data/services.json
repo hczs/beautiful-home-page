@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1751959053126",
+    "name": "Beszel",
+    "url": "http://chengge:10000/",
+    "status": "online",
+    "responseTime": 15,
+    "createdAt": "2025-07-08T07:17:33.126Z"
+  },
+  {
+    "id": "1751959189394",
+    "name": "青龙",
+    "url": "http://chengge:15700/crontab",
+    "status": "online",
+    "responseTime": 4,
+    "createdAt": "2025-07-08T07:19:49.394Z"
+  }
+]
