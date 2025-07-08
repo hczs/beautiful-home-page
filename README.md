@@ -51,6 +51,54 @@ pnpm build && pnpm start
 
 ---
 
+## 🏃‍♂️ 生产环境后台运行（推荐）
+
+本项目推荐使用 [pm2](https://pm2.keymetrics.io/) 进行生产环境的进程守护与后台运行。
+
+### 1. 安装 pm2
+
+```bash
+npm install -g pm2
+```
+
+### 2. 使用后台启动脚本
+
+- **Windows**：
+
+```bash
+start.bat
+```
+
+- **Mac/Linux**：
+
+```bash
+chmod +x start.sh
+./start.sh
+```
+
+脚本会自动设置端口为 `1215` 并以 pm2 后台守护方式启动服务。
+
+### 3. 常用 pm2 命令
+
+- 查看服务状态：
+  ```bash
+  pm2 status
+  ```
+- 停止服务：
+  ```bash
+  pm2 stop beautiful-home-page
+  ```
+- 重启服务：
+  ```bash
+  pm2 restart beautiful-home-page
+  ```
+- 查看日志：
+  ```bash
+  pm2 logs beautiful-home-page
+  ```
+
+---
+
 ## 📁 目录结构
 
 ```
@@ -77,4 +125,4 @@ pnpm build && pnpm start
 
 ---
 
-> 欢迎 Star & Issue & PR！让你的服务器监控更美观、更高效！ 🚀 
+> 欢迎 Star & Issue & PR！让你的服务器监控更美观、更高效！ 🚀
